@@ -8,11 +8,11 @@ config/adv360.keymapを以下の様に変更
 
 変更後
 / {
-    #include "oyainput_combos.keymap"
+    #include "combos.keymap"
 
     behaviors {
       #include "macros.dtsi"
-      #include "oyainput_macros.dtsi"
+
 
 config/に以下を追加
 combos.keymap
