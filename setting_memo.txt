@@ -1,9 +1,19 @@
 
-config/adv360.keymapの
-behaviors {
-の上の行に以下の一行を追加
+config/adv360.keymapを以下の様に変更
 
- #include "combos.keymap"
+変更前
+/ {
+    behaviors {
+      #include "macros.dtsi"
+
+変更後
+/ {
+    #include "oyainput_combos.keymap"
+
+    behaviors {
+      #include "macros.dtsi"
+      #include "oyainput_macros.dtsi"
+
 
 
 boards/arm/adv360/adv360_left_defconfigに以下の一行を追加
