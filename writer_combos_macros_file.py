@@ -73,7 +73,7 @@ def write_combo(fingers, thumb, macros):
     else:
         print('length is not equal at combo.')
 
-path_w = 'oyainput_combos.keymap'
+path_w = 'combos.keymap'
 with open(path_w, mode='w') as f:
     f.write('combos {\n')
     f.write('\tcompatible = "zmk,combos";\n\n')
@@ -119,7 +119,7 @@ def write_macro(macros, bindings):
         print('length is not equal at macro.')
 
 
-path_w = 'oyainput_macros.dtsi'
+path_w = 'macros.dtsi'
 with open(path_w, mode='w') as f:
     write_change_lang_macro()
     write_macro(base_macros, base_bindings)
