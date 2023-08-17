@@ -1,15 +1,19 @@
-Kinesis Advantage360を使って同時打鍵するためのスクリプトです。
+Kinesis Advantage360を使って親指シフト入力するためのファイル類です。
 
-設定例はこちら
+設定例はこちら↓
 
 https://github.com/hananirawataru/Adv360-Pro-ZMK/tree/oyainput-romanmode-qwerty-mac
 
+ファームウエアを直接ダウンロードしたい方はこちら↓
+
+https://github.com/hananirawataru/Adv360-Pro-ZMK/actions/runs/5635442004
+
+
 ---
-具体的な設定方法
+具体的な設定方法は以下になります。
 
-1. writer_combos_macros_file.pyを実行して得られる以下の2ファイルをconfig/以下に追加します。
-
-（この同時打鍵の組み合わせは、親指シフトの実装になります）
+1. 以下の2ファイルをconfig/以下に追加します。
+(writer_combos_macros_file.pyを実行すると得られるファイルです)
 
 ```
 combos.keymap
